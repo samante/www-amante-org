@@ -1,0 +1,45 @@
+author: "Shane Amante"
+info: "Husband, Dog's Best Friend, Hiker, Photographer"
+description: "Shane's Home Page"
+keywords: "blog, developer, personal"
+avatarURL: "images/mountain-clipart-black-and-white-clip-art-mountains-628x275.jpg"
+
+dateFormat: "Monday, January 2, 2006"
+since: 2021
+
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme: "auto"
+# Hide the toggle button, along with the associated vertical divider
+hidecolorschemetoggle: false
+# Series see also post count
+maxSeeAlsoItems: 5
+
+favicon_32: "/img/favicon-32x32.png"
+favicon_16: "/img/favicon-16x16.png"
+
+# Custom CSS
+customCSS: []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS: []
+# Custom JS
+customJS: []
+
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
+
+social:
+    - name: "Twitter"
+      icon: "fa fa-2x fa-twitter"
+      url: "https://twitter.com/samante"
+      weight: 1
+    - name: "RSS"
+      icon: "fa fa-2x fa-rss"
+      weight: 2
+      url: "https://www.amante.org/index.xml"
+      rel: "alternate"
+      type: "application/rss+xml"

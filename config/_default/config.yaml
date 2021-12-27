@@ -1,0 +1,18 @@
+baseURL: "https://www.amante.org/"
+languageCode: en-us
+title: Shane's Blog
+theme: hugo-coder
+languageCode: en
+defaultContentLanguage: en
+
+paginate: 20
+
+pygmentsstyle: "bw"
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+
+taxonomies:
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
